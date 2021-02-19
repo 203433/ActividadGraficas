@@ -47,7 +47,7 @@ public class Main {
                     System.out.print(" ");
                 }
                 if(impresion[j][i]==1){
-                    System.out.print("*");
+                    System.out.print("\t*");
                 }
             }
             System.out.println();
