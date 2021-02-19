@@ -12,7 +12,7 @@ public class Main {
         }
         imprimir(resultados);
 */
-        for (int renglon=0; renglon <= ejecuciones; renglon++) {
+        for (int renglon=0; renglon <= 3; renglon++) {
             int n = (renglon + 1) * 1;
             resultados[renglon][0] = n;
             resultados[renglon][1] = c.cuadratica(n);
